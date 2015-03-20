@@ -1814,7 +1814,7 @@ class UI_tSeries(QListWidgetItem):
                 assert not all(transform_check)
 
                 if any(transform_check):
-                    wa.warn("Z-plane missing transform. Copying from adjacet" +
+                    wa.warn("Z-plane missing transform. Copying from adjacent" +
                             " plane, accuracy not guaranteed")
                     # If any planes were missing an anchor set, copy transforms
                     # from adjacent planes
